@@ -7,7 +7,7 @@ from app.utils.logger import logger
 from app.business.agents import create_deal_extractor_agent
 from crawl4ai import AsyncWebCrawler
 
-INPUT_CSV = "input_urls.csv"  # Your input CSV with only 'url' header
+INPUT_CSV =  "F:/Deal-Source/Deal-Source-Libraries/app/business/input_urls.csv" # Your input CSV with only 'url' header
 OUTPUT_CSV = "clairfield_deal_data.csv"
 OUTPUT_JSON = "clairfield_deal_data.json"
 
